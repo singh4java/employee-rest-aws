@@ -26,4 +26,9 @@ public class EmployeeController {
   public List<Employee> getEmpOrderByCity(){
     return DataLoader.getEmployeesByCity().get();
   }
+
+  @GetMapping("/employees/gendra")
+  public List<Employee> getEmpOrderByGendra(){
+    return DataLoader.getEmployeesByGendra().get();
+  }
 }

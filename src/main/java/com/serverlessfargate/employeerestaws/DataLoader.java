@@ -29,5 +29,9 @@ public interface DataLoader {
     return Optional.of(EMPLOYEE_LIST.stream().sorted(Comparator.comparing(Employee::getName)).collect(
         Collectors.toList()));
   }
+  public static Optional<List<Employee>> getEmployeesByGendra(){
+    return Optional.of(EMPLOYEE_LIST.stream().sorted(Comparator.comparing(Employee::getGander)).collect(
+        Collectors.toList()));
+  }
 
 }

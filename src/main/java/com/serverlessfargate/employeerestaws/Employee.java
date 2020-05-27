@@ -9,4 +9,5 @@ public class Employee {
   private int ssn;
   private String name;
   private String city;
+  private String gander;
 }
