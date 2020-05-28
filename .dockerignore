@@ -1,8 +1,0 @@
-/src
-.pom.xml
-/.git
-./target/employee-rest-aws-0.0.1-SNAPSHOT.jar
-/.settings
-.classpath
-.project
-.springBeans
