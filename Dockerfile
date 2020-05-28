@@ -1,5 +1,4 @@
-FROM centos
-RUN yum install -y java
+FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 WORKDIR /
 ADD /target/employee-rest-aws-0.0.1-SNAPSHOT.jar app.jar
