@@ -1,6 +1,4 @@
 FROM openjdk:8-jdk-alpine
-RUN mkdir -p /var/lib/docker/tmp
-VOLUME /var/lib/docker/tmp
 EXPOSE 8080
 ADD /target/employee-rest-aws-0.0.1-SNAPSHOT.jar app.jar
 ENV JAVA_OPTS=""
